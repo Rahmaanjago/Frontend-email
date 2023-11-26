@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    background-color:  hsl(235, 18%, 26%);
+    padding: 6rem 20rem;
+    height: 100vh;
+}
+
+.board{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    max-width: 50rem;
+    padding: 1.5rem;
+    display: flex;
+}
+.board .text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+.board .text h1{
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.text .product-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.product-container .product{
+    display: flex;
+    gap: 1.2rem;
+}
+.product-container .product span i{
+    color: hsl(4, 100%, 67%);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form .email{
+    padding: .5rem;
+}
+form .button{
+    padding: .7rem;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: .5rem;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.board img{
+    height: 30rem;
+    margin-left: 1.5rem;
+}
+
+.all-container{
+    background-color: black;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.display-container{
+    background-color: hsl(234, 29%, 20%);
+    height: 100vh;
+    padding: 20% 20% 15% 28%;
+}
+
+.display-board{
+    border-radius: 2rem;
+    background-color: white;
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3.5rem 10%;
+}
+
+
+.display-board span img{
+    width: 3rem;
+}
+
+.display-board h1{
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+}
+
+.display-board p{
+    font-size: small;
+    font-weight: 400;
+    color: hsl(234, 29%, 20%);
+}
+
+.display-board button{
+    padding: .8rem;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
